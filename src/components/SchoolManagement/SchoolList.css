@@ -1,0 +1,36 @@
+/* SchoolList.css */
+
+.school-list {
+    padding: 100px;
+  }
+  
+  .school-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Four cards per column */
+    grid-gap: 50px;
+  }
+  
+  .school-card {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #0077b6; /* Ocean blue color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .school-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .school-card h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #fff; /* White text color */
+  }
+  
+  .school-card p {
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #fff; /* White text color */
+  }
+  

@@ -1,0 +1,29 @@
+.invoice-list {
+    margin-top: 20px;
+  }
+  
+  .invoice-list h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .invoice-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .invoice-list li {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .invoice-list li p {
+    margin: 0;
+  }
+  
+  .invoice-list li p:first-child {
+    font-weight: bold;
+  }
+  

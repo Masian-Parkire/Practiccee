@@ -1,0 +1,38 @@
+/* SchoolDetails.css */
+
+.school-details {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+  }
+  
+  .school-details h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .school-details p {
+    margin-bottom: 10px;
+  }
+  
+  .invoice-list, .collection-list {
+    margin-top: 20px;
+  }
+  
+  .invoice-item, .collection-item {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .invoice-item p, .collection-item p {
+    margin: 5px 0;
+  }
+  
+  .invoice-item:hover, .collection-item:hover {
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+  }
+  
